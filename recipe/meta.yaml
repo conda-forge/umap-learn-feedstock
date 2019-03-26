@@ -1,6 +1,6 @@
 {% set name = "umap-learn" %}
-{% set version = "0.3.7" %}
-{% set sha256 = "9c81c9cdc46cc8a87adf1972eeac5ec69bbe9cec440c0e4995fc68a015aafeb9" %}
+{% set version = "0.3.8" %}
+{% set sha256 = "f688060bce5495c06cb3e52df0982a63bb7b7755393b9f30e08e0c1791520d15" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1000
+  number: 0
   skip: True  # [win and py27 or win32]
   script: python -m pip install --no-deps --ignore-installed .
 
