@@ -7,7 +7,7 @@ Package license: BSD-2-Clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: Simple, fast, extensible JSON encoder/decoder for Python
+Summary: Uniform Manifold Approximation and Projection
 
 umap-learn provides the UMAP manifold based dimension reduction
 algorithm. The package provides an sklearn compatible interface
