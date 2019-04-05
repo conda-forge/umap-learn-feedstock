@@ -38,7 +38,7 @@ about:
   license: BSD-2-Clause
   license_family: BSD
   license_file: '{{ environ["RECIPE_DIR"] }}/LICENSE'
-  summary: 'Simple, fast, extensible JSON encoder/decoder for Python'
+  summary: 'Uniform Manifold Approximation and Projection'
 
   description: |
     umap-learn provides the UMAP manifold based dimension reduction
