@@ -1,6 +1,6 @@
 {% set name = "umap-learn" %}
-{% set version = "0.3.9" %}
-{% set sha256 = "1afa7036b84c30a466c03d16fabbcda42fe1bea8faebb0cc1e9b2ac3ea28a19c" %}
+{% set version = "0.3.10" %}
+{% set sha256 = "21ce6b6d7486905318ba6458b5a9ba2cfb935878d30c24e6fba64ee3bd504d09" %}
 
 package:
   name: {{ name|lower }}
