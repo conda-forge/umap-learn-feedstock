@@ -1,6 +1,6 @@
 {% set name = "umap-learn" %}
-{% set version = "0.3.10" %}
-{% set sha256 = "21ce6b6d7486905318ba6458b5a9ba2cfb935878d30c24e6fba64ee3bd504d09" %}
+{% set version = "0.4.0" %}
+{% set sha256 = "fc33bf6d83baedefbcf3dabd8f61ac4b46c8880ab6e3717964681d821966b223" %}
 
 package:
   name: {{ name|lower }}
@@ -12,8 +12,8 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
-  skip: True  # [win and py27 or win32]
+  number: 0
+  skip: true  # [win and py27 or win32]
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -37,8 +37,8 @@ about:
   home: http://github.com/lmcinnes/umap
   license: BSD-2-Clause
   license_family: BSD
-  license_file: '{{ environ["RECIPE_DIR"] }}/LICENSE'
-  summary: 'Uniform Manifold Approximation and Projection'
+  license_file: {{ environ["RECIPE_DIR"] }}/LICENSE
+  summary: Uniform Manifold Approximation and Projection
 
   description: |
     umap-learn provides the UMAP manifold based dimension reduction
