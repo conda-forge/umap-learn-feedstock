@@ -28,7 +28,7 @@ requirements:
     - numba >=0.35
     - scikit-learn >=0.19
     - scipy >=0.18
-    - tbb >= 2019.0
+    - tbb >=2019.0
 
 test:
   imports:
