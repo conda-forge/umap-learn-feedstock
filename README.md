@@ -14,7 +14,7 @@ Development: https://github.com/lmcinnes/umap
 umap-learn provides the UMAP manifold based dimension reduction
 algorithm. The package provides an sklearn compatible interface
 to t-SNE like dimension reduction technique that has better
-runtime performacne than t-SNE and often preserves more global
+runtime performance than t-SNE and often preserves more global
 structure than t-SNE.
 
 
